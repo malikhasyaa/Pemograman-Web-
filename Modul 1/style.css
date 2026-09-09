@@ -11,4 +11,29 @@ table {
 	margin: 30px;
 }
 
+#list {
+	background-color: pink;
+	width: 300px;
+	height: 100px;
+	border: 10px;
+	padding: 10px;
+	margin: 15px;
+}
 
+#Unordered {
+	background-color: yellow;
+	width: 300px;
+	height: 100px;
+	border: 10px;
+	padding: 10px;
+	margin: 15px;
+}
+
+#form {
+	background-color: greenyellow;
+	width: 310px;
+	height: 130px;
+	border: 10px;
+	padding: 10px;
+	margin: 15px;
+}

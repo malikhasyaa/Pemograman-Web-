@@ -14,13 +14,54 @@
 		<p>test</p>
 
 		<div id="list">
-			<h3>Tugas Kulia</h3>
+			<h3>Tugas Kuliah</h3>
 			<ol>
 				<li>Jarkom Week-1</li>
 				<li>KJK Week-1</li>
 			</ol>
+		</div>
+	
+		<div id="Unordered">
+			<h3>Hobi</h3>
+			<ul>
+				<li>tidur</li>
+				<li>menolog</li>
+			</ul>	
+		</div>
 
-			<h3></h3>
+		<div id="form">
+			<form action="/submit" method="POST">
+  <fieldset>
+    <legend>Data Mahasiswa</legend>
+
+    <label for="name">Nama Lengkap:</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Masukkan nama lengkap"
+      required
+    />
+
+    <br />
+    <label for="NRP">NRP:</label>
+    <input
+      type="text"
+      id="NRP"
+      name="NRP"
+      placeholder="Masukkan NRP"
+      required
+    />
+
+    <br />
+    <input type="radio" id="Pria" name="Gender" value="Pria">
+  <label for="Pria">Pria</label>
+	<input type="radio" id="Wanita" name="Gender" value="Wanita">
+  <label for="Wanita">Wanita</label>
+    <br />
+    <button type="submit">Kirim</button>
+  </fieldset>
+</form>
 		</div>
 	</body>
 </html>
