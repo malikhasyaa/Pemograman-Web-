@@ -1,0 +1,12 @@
+body {
+	background-color: blue;
+}
+
+table {
+	background-color: red;
+	width: 500px;
+	height: 200px;
+	border: 12px double;
+	padding: 10px;
+	margin: 30px;
+}
